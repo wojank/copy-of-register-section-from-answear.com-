@@ -1,0 +1,10 @@
+.form-primary {
+    background-color: rgb(242, 241, 237);
+    width: 480px;
+    padding: 30px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
