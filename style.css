@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
-  --paragraph-secondary: rgb(105, 105, 105);
+  --paragraph-primary: rgb(92, 92, 92);
+  --paragraph-secondary: rgb(152, 149, 149);
+  --paragraph-tertiary: rgb(184, 184, 184);
 }
 
 * {
@@ -11,8 +13,8 @@
 }
 
 .form-primary {
-  background-color: rgb(242, 241, 237);
-  width: 480px;
+  background-color: rgb(244, 244, 242);
+  width: 400px;
   padding: 30px;
 }
 
@@ -23,16 +25,42 @@
 
 .form-controll__label {
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
+  letter-spacing: 0.5px;
 }
 
 .form-controll__field {
-  margin-bottom: 5px;
+  padding: 10px;
+  margin-bottom: 7px;
+  outline: none;
+  border: 0.5px solid var(--paragraph-tertiary);
 }
 
 .form-controll__desc {
   color: var(--paragraph-secondary);
   margin-bottom: 10px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
 }
 
+.form-controll__check {
+  margin-bottom: 10px;
+}
+
+.form-primary__info {
+  font-size: 0.7rem;
+  letter-spacing: 0.5px;
+  line-height: 1.7;
+  color: var(--paragraph-primary);
+}
+
+.form-primary__btn {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 12px 0;
+  margin-top: 30px;
+  font-size: 1.01rem;
+}
 /* jakie jednostki do ustalenia rozmiaru kontenera np. formularza */
